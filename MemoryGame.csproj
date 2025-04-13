@@ -1,0 +1,174 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Alexandra.jpeg" />
+    <None Remove="Resources\Alexandra.jpg" />
+    <None Remove="Resources\Bean.jpg" />
+    <None Remove="Resources\CardBack.jpg" />
+    <None Remove="Resources\Cat.jpg" />
+    <None Remove="Resources\Category1\fiji3.jpg" />
+    <None Remove="Resources\Category1\images2.jpg" />
+    <None Remove="Resources\Category1\images4.jpg" />
+    <None Remove="Resources\Category1\images5.jpg" />
+    <None Remove="Resources\Category1\images6.jpg" />
+    <None Remove="Resources\Category1\images7.jpg" />
+    <None Remove="Resources\Category1\images8.jpg" />
+    <None Remove="Resources\Category1\img.jpg" />
+    <None Remove="Resources\Category2\caprio.jpg" />
+    <None Remove="Resources\Category2\images2.jpg" />
+    <None Remove="Resources\Category2\images3.jpg" />
+    <None Remove="Resources\Category2\images4.jpg" />
+    <None Remove="Resources\Category2\images6.jpg" />
+    <None Remove="Resources\Category2\images7.jpg" />
+    <None Remove="Resources\Category2\images8.jpg" />
+    <None Remove="Resources\Category2\img5.jpg" />
+    <None Remove="Resources\Category3\download1.jpg" />
+    <None Remove="Resources\Category3\download2.jpg" />
+    <None Remove="Resources\Category3\download3.jpg" />
+    <None Remove="Resources\Category3\images3.jpg" />
+    <None Remove="Resources\Category3\images5.jpg" />
+    <None Remove="Resources\Category3\images6.jpg" />
+    <None Remove="Resources\Category3\images7.jpg" />
+    <None Remove="Resources\Category3\images8.jpg" />
+    <None Remove="Resources\Category4\download.jpeg" />
+    <None Remove="Resources\Category4\download2.jpg" />
+    <None Remove="Resources\Category4\download3.jpg" />
+    <None Remove="Resources\Category4\download4.jpg" />
+    <None Remove="Resources\Category4\download5.jpg" />
+    <None Remove="Resources\Category4\download6.jpg" />
+    <None Remove="Resources\Category4\download7.jpg" />
+    <None Remove="Resources\Category4\download8.jpg" />
+    <None Remove="Resources\Dog.jpg" />
+    <None Remove="Resources\Granny.jpg" />
+    <None Remove="Resources\Monkey.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\Alexandra.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Bean.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\CardBack.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Cat.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category1\fiji3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category1\images2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category1\images4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category1\images5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category1\images6.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category1\images7.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category1\images8.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category1\img.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category2\caprio.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category2\images2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category2\images3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category2\images4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category2\images6.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category2\images7.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category2\images8.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category2\img5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category3\download1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category3\download2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category3\download3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category3\images3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category3\images5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category3\images6.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category3\images7.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category3\images8.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category4\download.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category4\download2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category4\download3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category4\download4.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category4\download5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category4\download6.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category4\download7.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Category4\download8.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Dog.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Granny.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Monkey.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
